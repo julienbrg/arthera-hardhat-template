@@ -7,7 +7,8 @@ describe("Incrementor", function () {
   async function deployContracts() {
     const [owner, alice, bob] = await ethers.getSigners();
     const Incrementor = await ethers.getContractFactory("Incrementor");
-    const incrementor = await Incrementor.deploy(1);
+    const incrementor = await upgrades.deployProxy(Incrementor,[], { initializer: 'increment' })
+
     return { incrementor, owner, alice, bob };
   }
 
