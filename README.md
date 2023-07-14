@@ -1,4 +1,4 @@
-# Arthera Hardhat Boilerplate
+# Arthera Hardhat Template
 
 ## Motivation
 
@@ -35,6 +35,17 @@ You can use the `increment.js` script to increment the value of `x`:
 ```
 npx hardhat run scripts/increment.js --network arthera-testnet
 ```
+
+## Contract verification
+
+- Go to the Arthera Testnet explorer, which is a fork of Blockscout
+- Paste you contract address
+- Click on the 'contract' tab
+- Click on the 'Verify and publish' button (top-right)
+- Fill out the form and paste your Solidity code
+- Click on 'Verify'
+
+_Note: the Incrementor contract is [already verified](https://explorer-test.arthera.net/address/0x570DB771DeA83A2f6322E775886b0196cD770D7F?tab=contract) so you shouldn't need to do that if you keep it unchanged._
 
 ## Versions
 
