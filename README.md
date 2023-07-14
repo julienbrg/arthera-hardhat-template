@@ -38,7 +38,7 @@ npx hardhat run scripts/increment.js --network arthera-testnet
 
 ## Contract verification
 
-- Go to the Arthera Testnet explorer, which is a fork of Blockscout
+- Go to the [Arthera Testnet explorer](https://explorer-test.arthera.net/), which is a fork of Blockscout
 - Paste you contract address
 - Click on the 'contract' tab
 - Click on the 'Verify and publish' button (top-right)
@@ -51,7 +51,7 @@ _Note: the Incrementor contract is [already verified](https://explorer-test.arth
 
 - Node [v18.15.0](https://nodejs.org/uk/blog/release/v18.15.0/)
 - NPM [v9.5.0](https://github.com/npm/cli/releases/tag/v9.5.0)
-- Hardhat[v2.17.0](https://github.com/NomicFoundation/hardhat/releases/tag/hardhat%402.17.0)
+- Hardhat [v2.17.0](https://github.com/NomicFoundation/hardhat/releases/tag/hardhat%402.17.0)
 - OpenZeppelin Contracts [v4.9.2](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.2)
 
 ## Support
