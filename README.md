@@ -47,6 +47,11 @@ npx hardhat run scripts/increment.js --network arthera-testnet
 
 _Note: the Incrementor contract is [already verified](https://explorer-test.arthera.net/address/0x570DB771DeA83A2f6322E775886b0196cD770D7F?tab=contract) so you shouldn't need to do that if you keep it unchanged._
 
+## Resources
+
+- openzeppelin-upgrades repo: https://github.com/OpenZeppelin/openzeppelin-upgrades/tree/master
+- tutorial: https://dev.to/yakult/tutorial-write-upgradeable-smart-contract-proxy-contract-with-openzeppelin-1916 
+
 ## Versions
 
 - Node [v18.15.0](https://nodejs.org/uk/blog/release/v18.15.0/)
