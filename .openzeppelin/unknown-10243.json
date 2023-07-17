@@ -1,0 +1,39 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xB4052abfdfB8241952D8aCA7Ef5603944a9051B9",
+    "txHash": "0x22ba28e6c5b2b3899cf58e874e6b02f230d8bb9d58ea4466e2259873f33d4375"
+  },
+  "proxies": [
+    {
+      "address": "0x0EC2b311F6D3fEa45930eADdf7617171C5877Eb8",
+      "txHash": "0x5cc63af6ab4e9b1c5724ddfecd3fc2fa70c72e00f5e5fb7034369b74cc9a6e4c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "3f56a7f8d7059c92f63f0f1b50aa331e104bff513168fed106618a4f49f02a1f": {
+      "address": "0xB2863358E278E54ccFF8d49A082E06556555d16B",
+      "txHash": "0xf52a1b0fcc91b1f335eb663caf5cbad26e10f18f5da10d12a3e65daf9698da48",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "x",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Incrementor",
+            "src": "contracts/Incrementor.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
