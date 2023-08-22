@@ -1,0 +1,64 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x2Bf4C085a834af219041a50cb4f40fCb3b13A7a1",
+    "txHash": "0x22dc0cbaabd6a11b50a6eaedf273a33986486420db413a21ff5ddbd1b5ba509b"
+  },
+  "proxies": [
+    {
+      "address": "0xB3Bf6066eeBae1d568320AE4672F8bD5368C19A1",
+      "txHash": "0xdc22cb2e27e232eb794ca9875f5b2dbbf8c9c5e61fde4973f3a55b6d8d0634d9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFFd3BeF85359257daC30d9c625B7eD9131ec2Dec",
+      "txHash": "0x60d9721121c7c0c627e2e346e03bb50cdfff903304154f39b08449eb58e77bcd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6386d76DC92D4a620356Df1878fC21a6212AD937",
+      "txHash": "0x4e32683cc6c7f697d61b96ec0c802a5227cc703b0fd304d44fc145c970ee172e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2924dDc24ee4f9830E2Ef63f528f1196C0e4f0d9",
+      "txHash": "0x2f5e4af6324656e50dd4535fd258931168278b1927347ff6989537ea09a943f2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x87d5cf7dC6463F36Cb4a6fB0Ed065DA0A51D9b97",
+      "txHash": "0x5550351ba0ae7c5e1c2d8728500260f5fa6366734887a7d2157d64bba32218db",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x507399eAD78Ee6aA490294518230fc7f2A7aaB28",
+      "txHash": "0xe46cb7ae850f1d752d6b0ea14eacc4fd249c319445e3121422f426025229e870",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "3f56a7f8d7059c92f63f0f1b50aa331e104bff513168fed106618a4f49f02a1f": {
+      "address": "0x4f999913f8d881Da54296beF3eFac54D9385D384",
+      "txHash": "0x5643cb464265eb95f8e3ce02c22e952823225734dd14f91450f1e60425068ffd",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "x",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Incrementor",
+            "src": "contracts/Incrementor.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
